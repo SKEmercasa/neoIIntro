@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./scss/normalize/normalize.css">
+    <title>iinto</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="reg">
+            <section class="view">
+                <img class="view__image" src="./img/bg.jpg" alt="image">
+            </section>
+            <div class="wrapper-casual">
+                <section class="reg-section">
+                    <header class="title">
+                        <h1 class="title__header">Get iintoo it today</h1>
+                        <p class="title__description">There is no charge or obligation upon
+                            registration.</p>
+                    </header>
+                    <section class="subreg">
+                        <a class="subreg__link subreg--background-facebook" href="https://www.facebook.com/">
+                            <div class="subreg__wrapper">
+                                <img class="subreg__logo" src="./img/facebook.svg" alt="facebook">
+                                <span class="subreg__text">Register with Facebook</span>
+                            </div>
+                        </a>
+                        <a class="subreg__link subreg--background-linkedin" href="https://www.linkedin.com/">
+                            <div class="subreg__wrapper">
+                                <img class="subreg__logo" src="./img/linkedin.svg" alt="linkedin">
+                                <span class="subreg__text">Register with Linkedin</span>
+                            </div>
+                        </a>
+                    </section>
+                    <div class="space-block">
+                        <span class="space-block__text">or</span>
+                    </div>
+                    <form class="reg-data" action="" method="post">
+                        <section class="user-info">
+                            <div class="user-info-data">
+                                <label class="user-info-data__label" for="email">Email</label>
+                                <input id="email" class="user-info-data__input" type="email">
+                            </div>
+                            <div class="user-info-data">
+                                <label class="user-info-data__label" for="tel">Phone</label>
+                                <input id="tel" class="user-info-data__input" type="tel">
+                            </div>
+                        </section>
+                        <fieldset class="user-add">
+                            <h2 class="user-add__header">What type of investor are you?</h2>
+                            <p class="user-add__discription">Select the type of investor are you below.</p>
+                            <ul class="user-add__list">
+                                <li class="user-add__chunk">
+                                    <label class="user-add__chunk-wrapper">
+                                        <input class="user-add__point" type="checkbox">
+                                        <span class="user-add__repoint"></span>
+                                        Individual
+                                    </label>
+                                    <img class="user-add__info" src="./img/info.svg" alt="info">
+                                </li>
+                                <li class="user-add__chunk">
+                                    <label class="user-add__chunk-wrapper">
+                                        <input class="user-add__point" type="checkbox">
+                                        <span class="user-add__repoint"></span>
+                                        Business
+                                    </label>
+                                    <img class="user-add__info" src="./img/info.svg" alt="info">
+                                </li>
+                                <li class="user-add__chunk">
+                                    <label class="user-add__chunk-wrapper">
+                                        <input class="user-add__point" type="checkbox">
+                                        <span class="user-add__repoint"></span>
+                                        IRA
+                                    </label>
+                                    <img class="user-add__info" src="./img/info.svg" alt="info">
+                                </li>
+                                <li class="user-add__chunk">
+                                    <label class="user-add__chunk-wrapper">
+                                        <input class="user-add__point" type="checkbox">
+                                        <span class="user-add__repoint"></span>
+                                        Trust
+                                    </label>
+                                    <img class="user-add__info" src="./img/info.svg" alt="info">
+                                </li>
+                            </ul>
+                            <div class="user-add__post">
+                                I am a natural person investing on my own behalf as a sole owner, joint tenant, or
+                                tenant in common.
+                            </div>
+                            <div class="user-add__pact">
+                                <label>
+                                    <input type="checkbox">
+                                    <span></span>
+                                </label>
+                                <span>
+                                    I agree to the terms and receiving notifications from iintoo
+                                    <a href="#">View full terms</a>
+                                </span>
+                            </div>
+                        </fieldset>
+                        <button class="reg-push">Create Account</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
